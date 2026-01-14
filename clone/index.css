@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.swiggy_home {
+    height: 80px;
+}
+
+.logo_container {
+    margin-left: 8%;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    max-width: 300px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    padding-right: 10px;
+
+}
+
+.nav_bar a{
+    position: relative;
+    font-weight: 600;
+    color: rgba(2, 6, 12, .9);
+    float: left;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+
+.symbol{
+    margin-left: 16%;
+}
+
+.corporate{
+    display: flex;
+    margin-left: 16%;
+    align-items: center;
+    gap: 6px;
+}
+
+.corporate a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+    
+    
+}
+.class{
+    align-items: center;
+    
+}
+
+.search_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 6px;
+}
+
+.search_bar a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+    
+}
+
+.offer_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 6px;
+}
+
+.offer_bar a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+    
+}
+
+.new{
+    color: #ffa700;
+    font-size: 10px;
+    top: 26px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 0%;
+    text-transform: uppercase;
+}
+
+.help_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 6px;
+}
+
+.help_bar a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 6px;
+}
+
+.profile a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    gap: 6px;
+}
+
+.cart a{
+    font-weight: 200;
+    color: #02060c;
+    font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    font-size: 21px;
+    
+    text-decoration: none;
+}
+.main_body {
+    height: 236px;
+    background-color: #80808012;
+    padding-top: 20px;
+    
+}
+
+.inner{
+    
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 216px;
+    border-bottom: 3px solid rgba(81, 71, 71, 0.136) ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Gilroy, Arial, sans-serif;
+    margin: 0;
+
+}
+
+.photos{
+    height: 180px;
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    
+}
+
+.photo11{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.photo12{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.photo13{
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -9px;
+    
+}
+
+.photo14{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -22px;
+}
+
+.photo15{
+    border-radius: 50%;
+    width: 140px;
+    margin-top: -35px;
+
+}
+
+.photo16{
+    width: 130px;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+
+.photo17{
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.paratha{
+    font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 13%;
+    font-size: 1.5em;
+}
+.kachori{
+    font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 13%;
+    font-size: 1.5em; 
+}
+
+.burger{
+     font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 1.5em;
+}
+
+.tea{
+     font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -8%;
+    font-size: 1.5em;
+}
+
+.coffee{
+    font-weight: 200;
+    color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.pizza{
+     font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -5%;
+    font-size: 1.5em;
+}
+
+.cake{
+     font-weight: 200;
+     color: #02060c75;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 1.5em;
+}
+
+.center_body{
+    height: 392px;
+    background-color: #80808012;
+    padding-top: 20px;
+}
+
+.middle{
+    
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 372px;
+    border-bottom: 3px solid rgba(81, 71, 71, 0.136) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Gilroy, Arial, sans-serif;
+    margin: 7px;
+}
+
+.restaurants{
+     height: 310px;
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.restaurant11{
+    width: 246px;
+}
+
+.restaurant12{
+    width: 258px;
+}
+
+.restaurant13{
+    width: 229px;
+}
+
+.restaurant14{
+    width: 307px;
+}
+
+.bur_ger{
+    margin-top: 5px;
+    height: 42%;
+    width: 100%;
+}
+
+.cak_e{
+    margin-top: 5px;
+    width: 100%;
+    height: 42%;
+}
+
+.piz_za{
+    margin-top: 5px;
+    width: 100%;
+    height: 42%;
+}
+
+.na_an{
+    margin-top: 5px;
+    width: 100%;
+    height: 42%;
+}
+
+.name{
+    margin: 0px;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+    width: 100%;
+}
+
+.rating{
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.address{
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+}
+
+.cent_body{
+    height: 710px;
+    background-color: #80808012;
+    padding-top: 20px;
+
+}
+
+.bottom{
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 690px;
+    border-bottom: 3px solid rgba(81, 71, 71, 0.136) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Gilroy, Arial, sans-serif;
+    margin: 7px;
+}
+
+.hotels{
+    height: 585px;
+    display: flex;
+    margin: 30px;
+    
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+
+.hotel11{
+    width: 246px;
+}
+
+.hotel12{
+    width: 246px;
+    height: 185px;
+}
+
+.hotel13{
+    width: 246px;
+    height: 186px;
+}
+
+.hotel14{
+    width: 246px;
+    height: 186px;
+}
+
+.hotel15{
+    width: 246px;
+    height: 186px;
+}
+
+.hotel16{
+    width: 246px;
+    height: 186px;
+
+}
+
+.hotel17{
+    width: 246px;
+    height: 186px;
+}
+
+.hotel18{
+    width: 246px;
+    height: 186px;
+}
+
+.noodles{
+    margin-top: 5px;
+}
+
+
+.footer_container{
+    position: relative;
+    z-index: 5;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container a {
+    padding-top: 14px;
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
