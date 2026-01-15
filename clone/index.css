@@ -450,6 +450,15 @@ header {
     justify-content: space-between;
 }
 
+.hotel1 img{
+    width: 246px;
+    height: 186;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
 .hotel11{
     width: 246px;
 }

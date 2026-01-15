@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+.bill-box {
+  width: 350px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: orange;
+}
